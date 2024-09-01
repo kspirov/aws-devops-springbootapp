@@ -1,4 +1,4 @@
-package com.example.springbootawsdeploy;
+Opackage com.example.springbootawsdeploy;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/data")
     public String getData() {
-        return "First message from AWS Ecs";
+        return "VERSION 2 - message from AWS Ecs";
     }
 
     @GetMapping("/message")
